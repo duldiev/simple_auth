@@ -15,8 +15,8 @@ class AuthScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
-      navigationBar: const CupertinoNavigationBar(
-        middle: Text('Auth'),
+      navigationBar: CupertinoNavigationBar(
+        middle: Text(AppWords.auth),
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,

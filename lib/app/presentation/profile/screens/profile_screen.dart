@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_svg/svg.dart';
@@ -23,10 +25,10 @@ class ProfileScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Gap(2.h),
+            Gap(3.h),
             SvgPicture.asset(
               'assets/icons/profile.svg',
-              height: 14.h,
+              height: 10.h,
               color: AppColors.black,
             ),
             Gap(2.h),
@@ -49,7 +51,7 @@ class ProfileScreen extends StatelessWidget {
               ),
               textAlign: TextAlign.center,
             ),
-            Gap(2.h),
+            Gap(3.h),
             Container(
               color: AppColors.white,
               child: CupertinoButtonDefault(

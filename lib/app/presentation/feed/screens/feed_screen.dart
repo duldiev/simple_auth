@@ -14,7 +14,7 @@ class FeedScreen extends StatelessWidget {
           AppWords.feed,
         ),
       ),
-      child: Placeholder(),
+      child: const SafeArea(child: Placeholder()),
     );
   }
 }

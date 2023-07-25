@@ -9,11 +9,13 @@ class AppRouter extends $AppRouter {
 
   @override
   List<AutoRoute> get routes => [
-        AutoRoute(page: AuthRoute.page),
+        AutoRoute(
+          page: AuthRoute.page,
+          initial: true,
+        ),
         AutoRoute(
           path: '/',
           page: NavRouter.page,
-          initial: true,
           children: [
             AutoRoute(path: 'feed', page: FeedRoute.page),
             AutoRoute(path: 'map', page: MapRoute.page),

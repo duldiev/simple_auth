@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:simple_auth/app/common/constants/app_colors.dart';
+import 'package:simple_auth/app/common/constants/app_words.dart';
 import 'package:simple_auth/app/router/app_router.gr.dart';
 
 @RoutePage()
@@ -36,6 +37,7 @@ class _NavRouterState extends State<NavRouter> {
             activeColor: AppColors.primary,
             items: [
               BottomNavigationBarItem(
+                label: AppWords.feed,
                 icon: SvgPicture.asset('assets/icons/feed.svg'),
                 activeIcon: SvgPicture.asset(
                   'assets/icons/feed.svg',
@@ -43,6 +45,7 @@ class _NavRouterState extends State<NavRouter> {
                 ),
               ),
               BottomNavigationBarItem(
+                label: AppWords.map,
                 icon: SvgPicture.asset(
                   'assets/icons/map.svg',
                 ),
@@ -52,6 +55,7 @@ class _NavRouterState extends State<NavRouter> {
                 ),
               ),
               BottomNavigationBarItem(
+                label: AppWords.favorites,
                 icon: SvgPicture.asset('assets/icons/fav.svg'),
                 activeIcon: SvgPicture.asset(
                   'assets/icons/fav.svg',
@@ -59,6 +63,7 @@ class _NavRouterState extends State<NavRouter> {
                 ),
               ),
               BottomNavigationBarItem(
+                label: AppWords.profile,
                 icon: SvgPicture.asset(
                   'assets/icons/profile.svg',
                   color: kDefaultIconDarkColor,
