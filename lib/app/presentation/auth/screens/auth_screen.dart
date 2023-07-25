@@ -43,7 +43,10 @@ class AuthScreen extends StatelessWidget {
                                   const Reset(),
                                 );
                           },
-                          child: const Text('OK'),
+                          child: const Text(
+                            'OK',
+                            style: TextStyle(fontSize: 12),
+                          ),
                         )
                       ],
                     ),

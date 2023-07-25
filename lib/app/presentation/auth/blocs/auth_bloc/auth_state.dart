@@ -16,8 +16,8 @@ class AuthState with _$AuthState {
 
   factory AuthState.initial() => AuthState(
         data: null,
-        email: 'maripbekoff@gmail.com',
-        password: 'adminadmin',
+        email: '',
+        password: '',
         authorizing: false,
         failed: false,
         authorized: false,
