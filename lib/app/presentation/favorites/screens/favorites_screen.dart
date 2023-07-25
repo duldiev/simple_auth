@@ -14,7 +14,7 @@ class FavoritesScreen extends StatelessWidget {
           AppWords.favorites,
         ),
       ),
-      child: const SafeArea(child: Placeholder()),
+      child: SafeArea(child: Container()),
     );
   }
 }

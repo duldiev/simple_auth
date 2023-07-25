@@ -14,7 +14,7 @@ class MapScreen extends StatelessWidget {
           AppWords.map,
         ),
       ),
-      child: const SafeArea(child: Placeholder()),
+      child: SafeArea(child: Container()),
     );
   }
 }
